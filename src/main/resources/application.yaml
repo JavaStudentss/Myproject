@@ -1,0 +1,9 @@
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    password: user$007
+    username: user007
+    url: jdbc:mysql://10.100.61.151:3306/demo&characterEncoding=utf-8&serverTimezone=Asia/Chongqing
