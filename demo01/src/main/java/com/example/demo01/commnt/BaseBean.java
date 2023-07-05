@@ -22,6 +22,7 @@ public class BaseBean<T> {
         this.success = success;
         this.message = message;
     }
+
     public static <T>BaseBean<T> success(String stat){
         return new BaseBean<>(stat,true,null);
     }
